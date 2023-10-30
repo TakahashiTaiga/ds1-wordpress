@@ -32,10 +32,6 @@ services:
 
 networks:
   ds1-container-network:
-    ipam:
-      driver: default
-      config:
-        - subnet: 10.254.249.0/24
 
 volumes:
     db_data:
